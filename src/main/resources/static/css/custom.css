@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+.vertical-align-header {
+    display: flex;
+    align-items: center;
+    border: solid 2px green;
+    height: 150px; 
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>The Random Beer App!</title>
+<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">		
+</head>
+<body>
+<div class="container my-5">
+		<br>
+		<div class="row jumbotron text-center vertical-align-header">
+			<div class="col-md-8 order-md-1">
+				<h1>The Random Beer App!</h1>
+			</div>
+			<div class="col-md-4 order-md-1 ">
+				<a href="#" class="btn btn-primary btn-lg align-button" id="btn-nextRandom">Show Another Beer</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 order-md-1">
+			 <i class="icon ion-md-beer" style="font-size: 264px;"></i>
+			</div>
+			<div class="col-md-8 order-md-1">
+				<div class="mb-3">
+					<h4>NAME</h4>
+					<h5 id="name"></h5>
+				</div>
+				<div class="mb-3">
+					<h4 >ABV</h4>
+					<h5 id="abv"></h5>
+				</div>			
+				<div class="mb-3">
+					<h4 >LOCATION</h4>
+					<h5 id="location"></h5>
+				</div>		
+				<div class="mb-3">
+					<h4 >DESCRIPTION</h4>
+					<p id="description"></p>
+				</div>											
+			</div>
+		</div>
+		<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+		<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</div>
+</body>
+</html>
