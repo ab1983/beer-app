@@ -10,5 +10,5 @@ The deployment can be made using the following alternatives:
 
 It is possible import the source code to any IDE supporting Maven. 
 Use Java 8 and Tomcat 8 to run the application.
-The database is placed in a Docker container running in a EC2 AWS instance.
+The database is placed in a Docker container running in an EC2 AWS instance.
 It was used data to populate the beerdb from http://openbeerdb.com/
